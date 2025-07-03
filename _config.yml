@@ -3,14 +3,65 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: ch
+title: 这是标题
+subtitle: '这是二级标题'
+description: '描述'
+keywords: 关键字
+author: JayChou
+language: zh-CN # 语言default(en) zh-CN (简体中文) zh-TW (繁体中文)
 timezone: ''
-
+# 播放器插件设置
+aplayer:
+  meting: true
+  asset_inject: false
+# 追番插件设置  （https://github.com/HCLonely/hexo-bilibili-bangumi）
+bangumi:
+  enable: true
+  source: bili
+  path:
+  vmid: 52917260 # B站用户ID
+  title: "追番列表"
+  quote: "生命不息，追番不止！"
+  show: 1
+  lazyload: false
+  loading:
+  showMyComment: false
+  pagination: false
+  metaColor:
+  color:
+  webp:
+  progress:
+  extraOrder:
+  proxy:
+    host: "代理host"
+    port: "代理端口"
+  extra_options:
+    top_img: false
+    lazyload:
+      enable: false
+#  coverMirror: https://image.baidu.com/search/down?url=https://image.baidu.com
+# 追剧设置
+cinema:
+  enable: true
+  path:
+  vmid: 52917260
+  title: '追剧列表'
+  quote: '生命不息，追剧不止！'
+  show: 1
+  lazyload: true
+  srcValue: '__image__'
+  lazyloadAttrName: 'data-src=__image__'
+  loading:
+  metaColor:
+  color:
+  webp:
+  progress:
+  progressBar:
+  extraOrder:
+  order:
+  extra_options:
+    key: value
+#  coverMirror: https://image.baidu.com/search/down?url=https://image.baidu.com
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: http://example.com
@@ -93,12 +144,12 @@ include:
 exclude:
 ignore:
 
-# Extensions
-## Plugins: https://hexo.io/plugins/
-## Themes: https://hexo.io/themes/
+# 扩展
+## Plugins: https://hexo.io/plugins/  #插件
+## Themes: https://hexo.io/themes/  #主题
 theme: anzhiyu
 
-# Deployment
+# 部署
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: 'git'
