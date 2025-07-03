@@ -154,4 +154,4 @@ theme: anzhiyu
 deploy:
   type: 'git'
   repo: https://github.com/yanruizhi/yanruizhi.github.io.git
-  branch: main
+  branch: master
