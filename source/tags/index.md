@@ -6,7 +6,7 @@ type: "tags"
 #【可选】是否显示评论
 comments: true
 #【可选】是否显示顶部图
-top_img: true
+top_img: false
 #【可选】排序方式 ：random/name/length
 orderby: date
 #order	【可选】排序次序： 1, asc for ascending; -1, desc for descending
