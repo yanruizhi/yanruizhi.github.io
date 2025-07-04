@@ -811,6 +811,13 @@ hexo-bilibili-bangumi@^1.11.1:
     progress "^2.0.3"
     tunnel "^0.0.6"
 
+hexo-butterfly-envelope@^1.0.15:
+  version "1.0.15"
+  resolved "https://registry.npmmirror.com/hexo-butterfly-envelope/-/hexo-butterfly-envelope-1.0.15.tgz"
+  integrity sha512-Z12iYDhrrJkARSvCIYTVRPrlipLE9o5Zeh2kozj/MbLz5tcQmfr62w+qu+hOJh2XiZucAyyoUyZq5faKP4YD4A==
+  dependencies:
+    pug "^3.0.0"
+
 hexo-cli@^4.3.2:
   version "4.3.2"
   resolved "https://registry.npmmirror.com/hexo-cli/-/hexo-cli-4.3.2.tgz"
@@ -990,6 +997,11 @@ hexo-util@^3.0.1, hexo-util@^3.1.0, hexo-util@^3.3.0:
     htmlparser2 "^9.0.0"
     prismjs "^1.29.0"
     strip-indent "^3.0.0"
+
+hexo-wordcount@^6.0.1:
+  version "6.0.1"
+  resolved "https://registry.npmmirror.com/hexo-wordcount/-/hexo-wordcount-6.0.1.tgz"
+  integrity sha512-tbo2P9xRWEKQmRf7+XuPjx9It1MnaE26nA+EEb2DN39gK1x+26W7Nm4Iyp4AugQjBWYYDx7OLn4gp1WFxQpQew==
 
 hexo@^7.3.0:
   version "7.3.0"
@@ -1652,7 +1664,7 @@ pug-walk@^2.0.0:
   resolved "https://registry.npmmirror.com/pug-walk/-/pug-walk-2.0.0.tgz"
   integrity sha512-yYELe9Q5q9IQhuvqsZNwA5hfPkMJ8u92bQLIMcsMxf/VADjNtEYptU+inlufAFYcWdHlwNfZOEnOOQrZrcyJCQ==
 
-pug@^3.0.2:
+pug@^3.0.0, pug@^3.0.2:
   version "3.0.3"
   resolved "https://registry.npmmirror.com/pug/-/pug-3.0.3.tgz"
   integrity sha512-uBi6kmc9f3SZ3PXxqcHiUZLmIXgfgWooKWXcwSGwQd2Zi5Rb0bT14+8CJjJgI8AB+nndLaNgHGrcc6bPIB665g==
