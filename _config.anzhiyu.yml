@@ -16,12 +16,16 @@ menu:
      我的追剧: /cinemas/ || anzhiyu-icon-bilibili
      我的装备: /equipment/ || anzhiyu-icon-box-archive
      相册集: /album/ || anzhiyu-icon-images
-     小空调: /air-conditioner/ || anzhiyu-icon-fan
 
    关于:
      关于本人: /about/ || anzhiyu-icon-paper-plane
      闲言碎语: /essay/ || anzhiyu-icon-lightbulb
      随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
+
+   其他:
+     小空调: /air-conditioner/ || anzhiyu-icon-fan
+
+
 
 # 最左侧网格按钮悬浮菜单配置
 nav:
@@ -34,7 +38,7 @@ nav:
         - name: 博客
           link: https://yanruizhi.github.io/
           icon: /img/favicon.ico
-    - title: 网页
+    - title: 轻松一刻
       item:
         - name: 看场电影
           link: https://www.jugege.cc/
@@ -42,11 +46,15 @@ nav:
         - name: 小霸王
           link: https://www.yikm.net/
           icon: https://files.codelife.cc/website/5f4ca285aa121b0c2ac69ee8.png?x-oss-process=image/resize,limit_0,m_fill,w_100,h_100/quality,q_92/format,webp
-
+    - title: 资料库
+      item:
+        - name: 图床
+          link: https://imgse.com/yanruizhi
+          icon: https://image.anheyu.com/favicon.ico
 # 哀悼日，指定日期网站简单变灰(仅首页)，不包括滚动条
 mourn:
   enable: true
-  days: [4-5, 5-12, 7-7, 9-18, 12-13]
+  days: [5-12, 9-18, 12-13]
 
 # 代码块展示配置
 highlight_theme: light #  darker / pale night / light / ocean / mac / mac light / false
@@ -250,14 +258,16 @@ post_copyright:
   copyright_author_img_front:
   copyright_author_link: /
 
-# Sponsor/reward
+# 文章打赏
 reward:
   enable: true
   QR_code:
-    - img: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png
+    # 微信二维码
+    - img: https://s21.ax1x.com/2025/07/07/pVM88ER.png
       link:
       text: 微信
-    - img: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-alipay.png
+    # 支付宝二维码
+    - img: https://s21.ax1x.com/2025/07/07/pVM8N8K.png
       link:
       text: 支付宝
 
@@ -1050,6 +1060,11 @@ home_top:
       shadow: var(--anzhiyu-shadow-green)
       class: green
       icon: anzhiyu-icon-book
+    - name: 其他
+      path: /categories/其他/
+      shadow: var(--anzhiyu-shadow-green)
+      class: green
+      icon: anzhiyu-icon-book
   default_descr: 再怎么看我也不知道怎么描述它的啦！
   swiper:
     enable: false
@@ -1075,7 +1090,7 @@ universe:
 
 # 页面卡片顶部气泡升起效果
 bubble:
-  enable: false
+  enable: true
 
 #  控制台打印信息
 console:

@@ -3,13 +3,14 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 这是标题
-subtitle: '这是二级标题'
-description: '描述'
-keywords: 关键字
+title: Wizard
+subtitle: "I'm iron man"
+description: '生命不息，折腾不止'
+keywords: '关键字'
 author: JayChou
 language: zh-CN # 语言default(en) zh-CN (简体中文) zh-TW (繁体中文)
 timezone: ''
+
 # 留言板插件配置
 envelope_comment:
   enable: true #控制开关
@@ -35,7 +36,7 @@ envelope_comment:
 aplayer:
   meting: true
   asset_inject: false
-# 追番插件设置  （https://github.com/HCLonely/hexo-bilibili-bangumi）
+# 追番插件设置  （https://github.com/HCLonely/hexo-bilibili-bangumi）更新数据 hexo bangumi -u
 bangumi:
   enable: true
   source: bili
@@ -60,16 +61,16 @@ bangumi:
     top_img: false
     lazyload:
       enable: false
-#  coverMirror: https://image.baidu.com/search/down?url=https://image.baidu.com
-# 追剧设置
+# 追剧设置 更新数据 hexo cinema -u
 cinema:
   enable: true
+  source: bili
   path:
   vmid: 52917260
   title: '追剧列表'
   quote: '生命不息，追剧不止！'
   show: 1
-  lazyload: true
+  lazyload: false
   srcValue: '__image__'
   lazyloadAttrName: 'data-src=__image__'
   loading:
@@ -82,8 +83,6 @@ cinema:
   order:
   extra_options:
     key: value
-#  coverMirror: https://image.baidu.com/search/down?url=https://image.baidu.com
-# URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: http://example.com
 permalink: :year/:month/:day/:title/

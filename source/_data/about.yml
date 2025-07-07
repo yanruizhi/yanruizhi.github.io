@@ -111,7 +111,8 @@
   music:
     music_tips: 音乐偏好
     music_title: 周杰伦、陶喆、许嵩、华语流行
-    music_bg: https://p2.music.126.net/Mrg1i7DwcwjWBvQPIMt_Mg==/79164837213438.jpg
+#    music_bg: https://p2.music.126.net/Mrg1i7DwcwjWBvQPIMt_Mg==/79164837213438.jpg
+    music_bg: https://img2.baidu.com/it/u=3110746908,2223277777&fm=253&app=138&f=JPEG?w=807&h=800
     music_link: /music
   # 赞赏名单列表
   reward_list:
