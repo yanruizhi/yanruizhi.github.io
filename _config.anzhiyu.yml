@@ -89,19 +89,19 @@ icons:
 author_status:
   enable: true
   #头像右下角小图标
-  statusImg: "https://bu.dusays.com/2023/08/24/64e6ce9c507bb.png"
+  statusImg: /img/icon/056.png
+#  statusImg: "https://bu.dusays.com/2023/08/24/64e6ce9c507bb.png"
   skills:
      - 🤖️ 数码科技爱好者
-     - 🔍 分享与热心帮助
+#     - 🔍 分享与热心帮助
      - 🏠 智能家居小能手
-     - 🔨 设计开发一条龙
-     - 🤝 专修交互与设计
-     - 🏃 脚踏实地行动派
-     - 🧱 团队小组发动机
-     - 💢 壮汉人狠话不多
+#     - 🔨 设计开发一条龙
+#     - 🤝 专修交互与设计
+#     - 🏃 脚踏实地行动派
+#     - 🧱 团队小组发动机
+#     - 💢 壮汉人狠话不多
 
 # search (搜索)
-# see https://blog.anheyu.com/posts/c27d.html#搜索系统
 # --------------------------------------
 
 # Algolia search
@@ -263,11 +263,11 @@ reward:
   enable: true
   QR_code:
     # 微信二维码
-    - img: https://s21.ax1x.com/2025/07/07/pVM88ER.png
+    - img: /img/pay/wechat.png
       link:
       text: 微信
     # 支付宝二维码
-    - img: https://s21.ax1x.com/2025/07/07/pVM8N8K.png
+    - img: /img/pay/alipay.png
       link:
       text: 支付宝
 
@@ -1045,26 +1045,22 @@ home_top:
   subTitle: 万物可爱。
   siteText: anheyu.com
   category:
-    - name: 前端
+    - name: 技术分享
       path: /categories/前端开发/
       shadow: var(--anzhiyu-shadow-blue)
       class: blue
       icon: anzhiyu-icon-dove
-    - name: 大学
-      path: /categories/大学生涯/
+    - name: 杂谈
+      path: /categories/杂谈/
       shadow: var(--anzhiyu-shadow-red)
       class: red
       icon: anzhiyu-icon-fire
-    - name: 生活
+    - name: 生活日常
       path: /categories/生活日常/
       shadow: var(--anzhiyu-shadow-green)
       class: green
       icon: anzhiyu-icon-book
-    - name: 其他
-      path: /categories/其他/
-      shadow: var(--anzhiyu-shadow-green)
-      class: green
-      icon: anzhiyu-icon-book
+
   default_descr: 再怎么看我也不知道怎么描述它的啦！
   swiper:
     enable: false
@@ -1073,7 +1069,7 @@ home_top:
   banner:
     tips: 新品主题
     title: Theme-AnZhiYu
-    image: https://bu.dusays.com/2023/05/13/645fa3cf90d70.webp
+    image: https://s21.ax1x.com/2025/07/07/pVM8fKg.jpg
     link: https://docs.anheyu.com/
 
 # 朋友圈配置
@@ -1216,12 +1212,12 @@ agreementPopup:
 
 # 右键菜单
 rightClickMenu:
-  enable: false
+  enable: true
 
 # 首页随便逛逛people模式 而非技能点模式，关闭后为技能点模式需要配置creativity.yml
 peoplecanvas:
-  enable: true
-  img: https://upload-bbs.miyoushe.com/upload/2024/07/27/125766904/ba62475f396df9de3316a08ed9e65d86_5680958632268053399..png
+  enable: false
+  img: https://s21.ax1x.com/2025/07/07/pVM8cPP.webp
 
 # 动效
 dynamicEffect:
