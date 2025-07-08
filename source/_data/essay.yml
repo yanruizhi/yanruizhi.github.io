@@ -8,26 +8,34 @@
   # 顶部图片地址
   top_background: https://img02.anheyu.com/adminuploads/1/2022/08/21/630249e2df20f.jpg
   essay_list:
-    # 模板
-    - content: 文本内容
-      # 日期
-      date: 2023/07/01
-      # 视频链接（列表，可添加多个视频）
-      video:
-        - https://cdn.jsdelivr.net/npm/anzhiyu-blog-static@1.0.0/video/%E9%A3%8E%E8%BD%A6%E6%A0%B7%E5%BC%8F%E6%95%88%E6%9E%9C%E9%A2%84%E8%A7%88.mp4
-      # 图片链接（列表，可添加多个图片）
+#    # 模板
+#    - content: 文本内容
+#      # 日期
+#      date: 2023/07/01
+#      # 视频链接（列表，可添加多个视频）
+#      video:
+#        - https://cdn.jsdelivr.net/npm/anzhiyu-blog-static@1.0.0/video/%E9%A3%8E%E8%BD%A6%E6%A0%B7%E5%BC%8F%E6%95%88%E6%9E%9C%E9%A2%84%E8%A7%88.mp4
+#      # 图片链接（列表，可添加多个图片）
+#      image:
+#        - https://img02.anheyu.com/adminuploads/1/2023/07/01/64a033cb2c21e.webp!blogimg
+#        - https://bu.dusays.com/2023/04/09/64329399e285d.webp
+#        - https://bu.dusays.com/2023/04/09/64329399aa3bc.webp
+#        - https://bu.dusays.com/2023/04/09/6432939996dd7.webp
+#      #  地址
+#      address: 安徽 合肥
+#      # 来源（作者）
+#      from: 安知鱼
+#      # 链接
+#      link: /posts/e140.html
+#      # 音频
+#      aplayer:
+#        server: tencent # 网易云：netease, QQ音乐：tencent, 酷狗音乐：kugou, 虾米音乐：xiami, 百度音乐：baidu
+#        id: 001FGQba3i10mw # 歌曲id
+#
+    - content: Power ！！！
+      date: 2025/07/07
       image:
-        - https://img02.anheyu.com/adminuploads/1/2023/07/01/64a033cb2c21e.webp!blogimg
-        - https://bu.dusays.com/2023/04/09/64329399e285d.webp
-        - https://bu.dusays.com/2023/04/09/64329399aa3bc.webp
-        - https://bu.dusays.com/2023/04/09/6432939996dd7.webp
-      #  地址
+        - https://s21.ax1x.com/2025/07/08/pVMvens.jpg
       address: 安徽 合肥
-      # 来源（作者）
-      from: 安知鱼
-      # 链接
-      link: /posts/e140.html
-      # 音频
-      aplayer:
-        server: tencent # 网易云：netease, QQ音乐：tencent, 酷狗音乐：kugou, 虾米音乐：xiami, 百度音乐：baidu
-        id: 001FGQba3i10mw # 歌曲id
+      from: Wizard
+
