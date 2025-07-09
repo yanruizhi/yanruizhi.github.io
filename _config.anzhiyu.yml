@@ -159,15 +159,10 @@ avatar:
   img: https://bu.dusays.com/2023/04/27/64496e511b09c.jpg
   effect: false
 
-# Disable all banner image
-disable_top_img: false
-
-# The banner image of home page
-index_img: false # "background: url() top / cover no-repeat"
-
-# If the banner of page not setting, it will show the top_img
-default_top_img: false
-
+# =============MarkDown文档=============
+disable_top_img: false # 关闭顶部图片 true:不显示顶部图片 | false:显示顶部图片 | 默认显示顶部图片
+index_img: false # 主页的 top_img，示例值: index_img: "background: url(https://img02.anheyu.com/xxx) top / cover no-repeat"
+default_top_img: false # 默认的 top_img，当页面的 top_img 没有配置时，会显示 default_top_img
 cover:
   # display the cover or not (是否显示文章封面)
   index_enable: true
@@ -180,7 +175,7 @@ cover:
   default_cover:
     # - /img/default_cover.jpg
 
-# Replace Broken Images (替换无法显示的图片)
+# 图片加载失败时显示的图片
 error_img:
   flink: /img/friend_404.gif
   post_page: /img/404.jpg
@@ -328,11 +323,11 @@ addtoany:
 
 # ------------------评论系统配置-开始--------------------
 comments:
-  use:  Twikoo/Waline # 使用的评论（请注意，最多支持两个，如果不需要请留空）
+  use:  Twikoo # 使用的评论（请注意，最多支持两个以逗号分割，如果不需要请留空）
   text: true # 是否显示评论服务商的名字
-  lazyload: false # 是否为评论开启 lazyload，开启后，只有滚动到评论位置时才会加载评论所需要的资源（开启 lazyload 后，评论数将不显示）
+  lazyload: true # 是否为评论开启 lazyload，开启后，只有滚动到评论位置时才会加载评论所需要的资源（开启 lazyload 后，评论数将不显示）
   count: true # 是否在文章顶部显示评论数
-  card_post_count: false # 是否在首页文章卡片显示评论数
+  card_post_count: true # 是否在首页文章卡片显示评论数
 
 # valine
 # https://valine.js.org
@@ -371,7 +366,7 @@ waline:
 
 # Twikoo 是一个简洁、安全、无后端的静态网站评论系统，基于腾讯云开发。 https://github.com/imaegoo/twikoo
 twikoo:
-  envId: cloud1-7g8egcs2711812b4 #环境 ID
+  envId: https://twikoo-rouge-seven.vercel.app/ #环境 ID
   region:  # 环境地域，默认为 ap-shanghai，如果您的环境地域不是上海，需传此参数
   visitor: true # 是否显示文章阅读数
   option: # 可选配置
@@ -1044,6 +1039,7 @@ home_top:
   title: 生活明朗
   subTitle: 万物可爱。
   siteText: anheyu.com
+  # 首页顶部左侧分类
   category:
     - name: 技术分享
       path: /categories/前端开发/
@@ -1062,10 +1058,12 @@ home_top:
       icon: anzhiyu-icon-book
 
   default_descr: 再怎么看我也不知道怎么描述它的啦！
+  # 首页右侧图（开启则右侧变成轮播图，轮播文章）
   swiper:
-    enable: false
+    enable: true
     swiper_css: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.css #swiper css依赖
     swiper_js: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.js #swiper js依赖
+  # 首页右侧图
   banner:
     tips: 新品主题
     title: Theme-AnZhiYu
