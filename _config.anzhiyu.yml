@@ -366,7 +366,7 @@ waline:
 
 # Twikoo 是一个简洁、安全、无后端的静态网站评论系统，基于腾讯云开发。 https://github.com/imaegoo/twikoo
 twikoo:
-  envId: https://twikoo-rouge-seven.vercel.app/ #环境 ID
+  envId: http://192.168.100.128:8935/ # https://twikoo-rouge-seven.vercel.app/ #环境 ID
   region:  # 环境地域，默认为 ap-shanghai，如果您的环境地域不是上海，需传此参数
   visitor: true # 是否显示文章阅读数
   option: # 可选配置
@@ -1060,7 +1060,7 @@ home_top:
   default_descr: 再怎么看我也不知道怎么描述它的啦！
   # 首页右侧图（开启则右侧变成轮播图，轮播文章）
   swiper:
-    enable: true
+    enable: false
     swiper_css: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.css #swiper css依赖
     swiper_js: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.js #swiper js依赖
   # 首页右侧图
