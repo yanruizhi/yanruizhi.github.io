@@ -103,15 +103,12 @@ author_status:
 
 # search (搜索)
 # --------------------------------------
-
-# Algolia search
 algolia_search:
-  enable: false
+  enable: true
   hits:
-    per_page: 6
-  tags:
-    # - 前端
-    # - Hexo
+    per_page: 10
+#  tags:
+#    - 技术分享
 
 # Docsearch
 # Apply and Option Docs: see https://docsearch.algolia.com/
@@ -139,8 +136,8 @@ local_search:
 
 # MathJax
 mathjax:
-  enable: false
-  per_page: false
+  enable: true
+  per_page: true
 
 # KaTeX
 katex:
@@ -148,16 +145,13 @@ katex:
   per_page: false
   hide_scrollbar: true
 
-# Image (图片设置)
-# --------------------------------------
-
-# Favicon（网站图标）
+# 网站图标
 favicon: /favicon.ico
 
-# Avatar (头像)
+# 头像
 avatar:
-  img: https://bu.dusays.com/2023/04/27/64496e511b09c.jpg
-  effect: false
+  img: https://s21.ax1x.com/2025/07/10/pVQs3JU.jpg
+  effect: false # 旋转
 
 # =============MarkDown文档=============
 disable_top_img: false # 关闭顶部图片 true:不显示顶部图片 | false:显示顶部图片 | 默认显示顶部图片
@@ -174,6 +168,7 @@ cover:
   # When cover is not set, the default cover is displayed (当没有设置cover时，默认的封面显示)
   default_cover:
     # - /img/default_cover.jpg
+# =============MarkDown文档=============
 
 # 图片加载失败时显示的图片
 error_img:
@@ -185,14 +180,15 @@ error_404:
   enable: true
   subtitle: "请尝试站内搜索寻找文章"
   background: https://bu.dusays.com/2023/05/08/645907596997d.gif
-
+# ===============文章相关配置================
+# 文章页信息配置
 post_meta:
   page: # Home Page
     date_type: created # created or updated or both 主页文章日期是创建日或者更新日或都显示
-    date_format: simple # date/relative/simple 显示日期还是相对日期 或者 简单日期
+    date_format: date # date/relative/simple 显示日期还是相对日期 或者 简单日期
     categories: true # true or false 主页是否显示分类
     tags: true # true or false 主页是否显示标籤
-    label: false # true or false 显示描述性文字
+    label: true # true or false 显示描述性文字
   post:
     date_type: both # created or updated or both 文章页日期是创建日或者更新日或都显示
     date_format: date # date/relative 显示日期还是相对日期
@@ -216,35 +212,24 @@ wordcount:
   min2read: true
   total_wordcount: true
 
-# Display the article introduction on homepage
-# 1: description
-# 2: both (if the description exists, it will show description, or show the auto_excerpt)
-# 3: auto_excerpt (default)
-# false: do not show the article introduction
 index_post_content:
   method: 3
   length: 500 # if you set method to 2 or 3, the length need to config
-
-# anchor
 # when you scroll in post, the URL will update according to header id.
 anchor: false
-
-# Post
-# --------------------------------------
-
-# toc (目录)
+# 文章目录
 toc:
   post: true
   page: false
   number: true
   expand: false
   style_simple: false # for post
-
+ # 文章版权配置
 post_copyright:
   enable: true
   decode: false
   author_href:
-  location: 长沙
+  location: 合肥
   license: CC BY-NC-SA 4.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
   avatarSinks: false # hover时头像下沉
@@ -254,7 +239,7 @@ post_copyright:
 
 # 文章打赏
 reward:
-  enable: true
+  enable: false
   QR_code:
     # 微信二维码
     - img: /img/pay/wechat.png
@@ -265,24 +250,22 @@ reward:
       link:
       text: 支付宝
 
-# Post edit
-# Easily browse and edit blog source code online.
+# 文章编辑
 post_edit: # 目前仅可选择一个平台在线编辑
   enable: true
   # github: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name/
   # For example: https://github.com/jerryc127/butterfly.js.org/edit/main/source/
   github: false
-
   # yuque: https://www.yuque.com/user-name/repo-name/
   # 示例: https://www.yuque.com/yuque/yuque/
   # 你需要在语雀文章 Front Matter 添加参数 id 并确保其唯一性（例如 “id: yuque”, “id: 01”）
   yuque: false
-
 # 相关文章
 related_post:
   enable: true
   limit: 6 # 显示推荐文章数
   date_type: created # or created or updated 文章日期显示创建日或者更新日
+# ===============文章相关配置================
 
 # figcaption (图片描述文字)
 photofigcaption: false

@@ -1,13 +1,10 @@
-# Hexo Configuration
-## Docs: https://hexo.io/docs/configuration.html
-## Source: https://github.com/hexojs/hexo/
 
 # Site
 title: Wizard
 subtitle: "I'm iron man"
 description: '生命不息，折腾不止'
 keywords: '关键字'
-author: JayChou
+author: Wizard小志
 language: zh-CN # 语言default(en) zh-CN (简体中文) zh-TW (繁体中文)
 timezone: ''
 
@@ -83,13 +80,13 @@ cinema:
   order:
   extra_options:
     key: value
-## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+## 在此处设置您的站点 URL。例如，如果您使用 GitHub Page，请将 url 设置为 'https://username.github.io/project'
+url: https://yanruizhi.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
-  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
-  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+  trailing_index: true # 设置为 false 以从永久链接中删除尾随的 'index.html'
+  trailing_html: true # 设置为 false 以从永久链接中删除尾随的 '.html'
 
 # Directory
 source_dir: source
@@ -166,6 +163,8 @@ ignore:
 
 # 扩展
 ## Plugins: https://hexo.io/plugins/  #插件
+plugins:
+  - hexo-algoliasearch
 ## Themes: https://hexo.io/themes/  #主题
 theme: anzhiyu
 
@@ -184,26 +183,21 @@ kramed:
   breaks: true
   smartLists: true
   smartypants: true
-pandoc:
-  args:
-    - '-f'
-    - 'commonmark_x'
-    - '-t'
-    - 'html'
-    - '--mathjax'
-  extensions:
-    - '-implicit_figures'
-mathjax:
-  tags: none # or 'ams' or 'all'
-  single_dollars: true # enable single dollar signs as in-line math delimiters
-  cjk_width: 0.9 # relative CJK char width
-  normal_width: 0.6 # relative normal (monospace) width
-  append_css: true # add CSS to pages rendered by MathJax
-  every_page: true # if true, every page will be rendered by MathJax regardless the `mathjax` setting in Front-matter
-  packages:
-    - physics
-    - mathtools
-    - color
-    - noerrors
-    - amsmath
-  extension_options: {}
+
+# 文章搜索功能
+# algolia搜索: https://github.com/LouisBarranqueiro/hexo-algoliasearch
+algolia:
+  appId: "10LUYIU2T9"
+  apiKey: "40712f1b5a6970a7823b62e64add494c"
+  adminApiKey: "9d0bdded2e0caed1b0157232e131b65a"
+  chunkSize: 5000
+  indexName: "hexo"
+  fields:
+    - content:strip:truncate,0,200
+    - excerpt:strip
+    - gallery
+    - permalink
+    - photos
+    - slug
+    - tags
+    - title

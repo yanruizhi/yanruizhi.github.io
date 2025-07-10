@@ -1,13 +1,18 @@
 ---
 title: MarkDown基础语法
 date: 2025-07-09
-categories: [笔记,技术分享]
+categories:
+  - 技术分享
 tags: [MarkDown]
 location: 安徽 合肥
 cover: https://s21.ax1x.com/2025/07/09/pVQV3oF.md.webp
 top_img: https://s21.ax1x.com/2025/07/09/pVQV3oF.md.webp
-copyright: enable #【可选】显示文章版权模块(默认为设置中 post_copyright 的 enable 配置)
-copyright_author: Wizard小志 #【可选】文章版权模块的文章作者
+copyright: enable # 是否转载，默认为disable
+copyright_author: Wizard小志 # 若为转载，版权部分展示作者信息
+#copyright_author_href: https://xxxxxx.com #【可选】文章版权模块的文章作者的链接
+#copyright_url: https://xxxxxx.com #【可选】文章版权模块的文章链接
+#copyright_info: 此文章版权归xxxxx所有，如有转载，请注明来自原作者 # 其他描述信息
+# sticky: 1 # 文章置顶，数值越大，置顶的优先级越大
 ---
 
 ### 1.标题
