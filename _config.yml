@@ -174,4 +174,4 @@ theme: anzhiyu
 deploy:
   type: 'git'
   repo: https://github.com/yanruizhi/yanruizhi.github.io.git
-  branch: master
+  branch: gh-pages
