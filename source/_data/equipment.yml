@@ -1,0 +1,28 @@
+- class_name: 好物
+  description: 实物装备推荐
+  tip:
+  top_background: https://s21.ax1x.com/2025/07/07/pVM8cPP.webp
+  good_things:
+    - title: 生产力
+      description: 提升自己生产效率的硬件设备
+      equipment_list:
+        - name: 神州战神Z7（笔记本）
+          specification: i7-12700 RTX3050 32G / 1TB
+          description: 工作机，干活用的
+          image: https://img0.baidu.com/it/u=570813017,2204828627&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=655
+          link: https://www.taobao.com/
+
+    - title: 基础数码设备
+      description: 手机平板
+      equipment_list:
+        - name: iPhone 16 ProMax
+          specification: 钛金属 / 256G
+          description:
+          image: https://gw.alicdn.com/bao/uploaded/i3/2202421911399/O1CN01YTX5DZ1MCn5TZy3l6_!!2202421911399.jpg
+          link: https://www.apple.com/iphone-16-pro/
+        - name: AirPods（第一代）
+          specification: 标准版
+          description: 初代机，没什么好说的
+          image: https://gw.alicdn.com/bao/uploaded/i1/1917047079/O1CN01uROPsL22AEjrqr2nG_!!2-item_pic.png_.webp
+          link: https://www.apple.com/airpods/
+
