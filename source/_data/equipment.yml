@@ -8,9 +8,13 @@
       equipment_list:
         - name: 神州战神Z7（笔记本）
           specification: i7-12700 RTX3050 32G / 1TB
-          description: 工作机
+          description: 工作机，干活用的
           image: https://img0.baidu.com/it/u=570813017,2204828627&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=655
           link: https://www.taobao.com/
+
+    - title: 基础数码设备
+      description: 手机平板
+      equipment_list:
         - name: iPhone 16 ProMax
           specification: 钛金属 / 256G
           description:
@@ -18,24 +22,7 @@
           link: https://www.apple.com/iphone-16-pro/
         - name: AirPods（第一代）
           specification: 标准版
-          description:
+          description: 初代机，没什么好说的
           image: https://gw.alicdn.com/bao/uploaded/i1/1917047079/O1CN01uROPsL22AEjrqr2nG_!!2-item_pic.png_.webp
           link: https://www.apple.com/airpods/
-    - title: 出行
-      description: 用来出行的实物及设备
-      equipment_list:
-        - name: Apple Watch Series 8
-          specification: 黑色
-          description: 始终为我的健康放哨，深夜弹出站立提醒，不过确实有效的提高了我的运动频率，配合apple全家桶还是非常棒的产品，缺点依然是续航。
-          image: https://bu.dusays.com/2023/07/05/64a4c40ab698a.webp
-          link: https://www.apple.com.cn/apple-watch-series-8/
-        - name: NATIONAL GEOGRAPHIC双肩包
-          specification: 黑色
-          description: 国家地理黑色大包，正好装下16寸 Macbook Pro，并且背起来很舒适，底部自带防雨罩也好用，各种奇怪的小口袋深得我心。
-          image: https://bu.dusays.com/2023/07/05/64a4c40ab698a.webp
-          link: https://item.jd.com/100011269828.html
-        - name: NATIONAL GEOGRAPHIC学生书包🎒
-          specification: 红白色
-          description: 国家地理黑色大包，冰冰🧊同款，颜值在线且实用。
-          image: https://bu.dusays.com/2023/07/05/64a4c40ab698a.webp
-          link: https://item.jd.com/100005889786.html
+

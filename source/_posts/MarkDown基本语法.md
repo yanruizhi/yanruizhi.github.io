@@ -7,7 +7,7 @@ location: 安徽 合肥
 cover: https://s21.ax1x.com/2025/07/09/pVQV3oF.md.webp
 top_img: https://s21.ax1x.com/2025/07/09/pVQV3oF.md.webp
 copyright: enable #【可选】显示文章版权模块(默认为设置中 post_copyright 的 enable 配置)
-copyright_author: Yanruizhi #【可选】文章版权模块的文章作者
+copyright_author: Wizard小志 #【可选】文章版权模块的文章作者
 ---
 
 ### 1.标题

@@ -6,7 +6,7 @@
   limit: 30 # 显示的文案数量
   home_essay: true
   # 顶部图片地址
-  top_background: https://img02.anheyu.com/adminuploads/1/2022/08/21/630249e2df20f.jpg
+  top_background: https://s21.ax1x.com/2025/07/09/pVQVJJJ.webp
   essay_list:
 #    # 模板
 #    - content: 文本内容
@@ -41,7 +41,7 @@
     - content: 经过一天的研究部署和调试，评论系统终于搞好了。就是文档太旧了，不能照抄啊。o(╥﹏╥)o
       date: 2025/07/09
       image:
-        - https://s21.ax1x.com/2025/07/09/pVQKAoV.png
+        - https://s21.ax1x.com/2025/07/10/pVQrJbt.png
       address: 安徽 合肥
       from: Wizard
 

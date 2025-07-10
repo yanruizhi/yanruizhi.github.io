@@ -175,3 +175,35 @@ deploy:
   type: 'git'
   repo: https://github.com/yanruizhi/yanruizhi.github.io.git
   branch: gh-pages
+# 数学公式渲染
+kramed:
+  gfm: true
+  pedantic: false
+  sanitize: false
+  tables: true
+  breaks: true
+  smartLists: true
+  smartypants: true
+pandoc:
+  args:
+    - '-f'
+    - 'commonmark_x'
+    - '-t'
+    - 'html'
+    - '--mathjax'
+  extensions:
+    - '-implicit_figures'
+mathjax:
+  tags: none # or 'ams' or 'all'
+  single_dollars: true # enable single dollar signs as in-line math delimiters
+  cjk_width: 0.9 # relative CJK char width
+  normal_width: 0.6 # relative normal (monospace) width
+  append_css: true # add CSS to pages rendered by MathJax
+  every_page: true # if true, every page will be rendered by MathJax regardless the `mathjax` setting in Front-matter
+  packages:
+    - physics
+    - mathtools
+    - color
+    - noerrors
+    - amsmath
+  extension_options: {}
