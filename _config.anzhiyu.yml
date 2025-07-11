@@ -24,6 +24,7 @@ menu:
 
 #   其他:
      #小空调: /air-conditioner/ || anzhiyu-icon-fan
+#     小风扇: /mypage/fan.html || anzhiyu-icon-fan
 
 
 
@@ -60,7 +61,7 @@ mourn:
 highlight_theme: light #  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # copy button（允许复制）
 highlight_lang: true # 显示代码语言
-highlight_shrink: true  # true: 关闭代码块 | false: 默认展开代码块 | none: 展开代码块，且收齐展开按钮
+highlight_shrink: false  # true: 关闭代码块 | false: 默认展开代码块 | none: 展开代码块，且收齐展开按钮
 highlight_height_limit: 300 # 默认展示代码块高度，超出部分隐藏，单位：px
 code_word_wrap: true # 代码块内容超出时，允许滚动 true:自动换行，false:不换行，滚动条显示
 
