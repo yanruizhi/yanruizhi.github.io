@@ -33,7 +33,7 @@ curl -SL https://github.com/docker/compose/releases/download/v2.29.1/docker-comp
 sudo chmod +x /usr/local/bin/docker-compose
 ```
 
-#### 3.简历软连接
+#### 3.建立软连接
 
 ```bash
 sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
