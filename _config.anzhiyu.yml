@@ -342,7 +342,7 @@ waline:
 
 # Twikoo 是一个简洁、安全、无后端的静态网站评论系统，基于腾讯云开发。 https://github.com/imaegoo/twikoo
 twikoo:
-  envId: https://twikoo-rouge-seven.vercel.app/ #环境 ID http://192.168.100.128:8935/
+  envId: http://192.168.100.128:8935/ #环境 ID http://192.168.100.128:8935/  https://twikoo-rouge-seven.vercel.app/
   region:  # 环境地域，默认为 ap-shanghai，如果您的环境地域不是上海，需传此参数
   visitor: true # 是否显示文章阅读数
   option: # 可选配置
@@ -634,7 +634,7 @@ h2Divider: false
 # 表格隔行变色
 table_interlaced_discoloration: false
 
-# 首页双栏显示
+# 首页文章双栏显示
 article_double_row: true
 
 # The top_img settings of home page
@@ -1104,7 +1104,7 @@ music_page_default: nav_music
 # 评论匿名邮箱
 visitorMail:
   enable: true
-  mail: ""
+  mail: "visitor@wizard.com"
 
 # ptool 文章底部工具
 ptool:
