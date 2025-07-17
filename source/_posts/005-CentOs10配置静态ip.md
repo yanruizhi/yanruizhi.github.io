@@ -6,8 +6,8 @@ categories:
 tags: 
   - CentOS
 location: 安徽 合肥
-cover: https://pic4.zhimg.com/v2-9a946f76b65c678a3125b8f42aba9984_1440w.jpg?source=172ae18b
-top_img: https://pic4.zhimg.com/v2-9a946f76b65c678a3125b8f42aba9984_1440w.jpg?source=172ae18b
+cover: https://s21.ax1x.com/2025/07/17/pV3Excd.png
+top_img: https://s21.ax1x.com/2025/07/17/pV3Excd.png
 copyright: enable #【可选】显示文章版权模块(默认为设置中 post_copyright 的 enable 配置)
 copyright_author: Wizard小志 #【可选】文章版权模块的文章作者
 copyright_author_href: https://yanruizhi.github.io/ #【可选】文章版权模块的文章作者的链接
