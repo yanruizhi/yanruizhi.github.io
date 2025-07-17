@@ -2,12 +2,12 @@
   path_name: /album/wordScenery
   type: 2
   description: 因为到不了世界各地，所以请网友们发来了各地的夕阳与风景🌇。
-  cover: https://i1.hdslb.com/bfs/archive/d6d60d40ce461e8b5cd5a6264146118f70d2fa52.jpg
+  cover: https://upload-bbs.miyoushe.com/upload/2025/06/13/125766904/2cf2b6aea07bba089d0d17c4fea72d1b_5366629137934368264.png
   top_background: https://i1.hdslb.com/bfs/archive/d6d60d40ce461e8b5cd5a6264146118f70d2fa52.jpg
   rowHeight: 220
   limit: 10
-  lazyload: false
-  btnLazyload: false
+  lazyload: true
+  btnLazyload: true
   url: false
   top_link: /album
   top_btn_text: 返回
@@ -18,13 +18,6 @@
       from: 再吃一口就减肥
       image:
         - https://bu.dusays.com/2023/04/09/64329399db122.webp
-    - date: 2022-10-25
-      content: 洛阳暴雨后的天空。
-      address: 河南洛阳
-      from: 紫菜卷
-      image:
-        - https://bu.dusays.com/2023/04/09/64329399db122.webp
-        - https://bu.dusays.com/2023/04/09/64329399db2e1.webp
 
 - class_name: 我的日常
   path_name: /album/dailyPhoto
@@ -34,7 +27,6 @@
   top_btn_text: 返回 # 顶部按钮文字
   top_background: https://i1.hdslb.com/bfs/archive/d6d60d40ce461e8b5cd5a6264146118f70d2fa52.jpg
   cover: https://i1.hdslb.com/bfs/archive/d6d60d40ce461e8b5cd5a6264146118f70d2fa52.jpg
-  rowHeight: 220
   album_list:
     - date: 2020-7-20
       content: 简单
