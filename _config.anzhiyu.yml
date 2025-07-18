@@ -52,6 +52,9 @@ nav:
         - name: 图床
           link: https://imgse.com/yanruizhi
           icon: https://image.anheyu.com/favicon.ico
+        - name: Hexo官方文档
+          link: https://hexo.io/zh-cn/docs/
+          icon: https://img2.baidu.com/it/u=3616937374,3569687940&fm=253&fmt=auto&app=138&f=JPEG?w=738&h=400
 # 哀悼日，指定日期网站简单变灰(仅首页)，不包括滚动条
 mourn:
   enable: true
