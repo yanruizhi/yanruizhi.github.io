@@ -69,7 +69,7 @@ pipx install docker-compose
 
 首先在github上找到需要的release版本`https://github.com/docker/compose/releases`,然后复制下载链接
 
-[![复制下载链接](https://s21.ax1x.com/2025/07/11/pVQvjfK.md.png)](https://imgse.com/i/pVQvjfK)
+[![复制下载链接](https://s21.ax1x.com/2025/07/11/pVQvjfK.md.png)](https://s21.ax1x.com/2025/07/11/pVQvjfK.png)
 
 ```bash
 wget https://github.com/docker/compose/releases/download/v2.38.2/docker-compose-darwin-x86_64 > /applications/docker-compose
