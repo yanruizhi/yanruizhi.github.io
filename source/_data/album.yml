@@ -1,5 +1,5 @@
 - class_name: 从前从前 有个人爱你很久
-  path_name: /album/wordScenery
+  path_name: /album/wordScenery/
   type: 2
   description: 但偏偏 雨渐渐 大到我看你不见
   cover: https://s21.ax1x.com/2025/07/18/pV3aSJg.png
@@ -9,7 +9,7 @@
   lazyload: true
   btnLazyload: true
   url: false
-  top_link: /album
+  top_link: /album/
   top_btn_text: 返回
   album_list:
     - date: 2022/10/26 01:00:00
@@ -20,10 +20,10 @@
         - https://bu.dusays.com/2023/04/09/64329399db122.webp
 
 - class_name: 我的日常
-  path_name: /album/dailyPhoto
+  path_name: /album/dailyPhoto/
   type: 1
   description: 记录生活
-  top_link: /album # 顶部按钮点击跳转链接
+  top_link: /album/ # 顶部按钮点击跳转链接
   top_btn_text: 返回 # 顶部按钮文字
   top_background: https://i1.hdslb.com/bfs/archive/d6d60d40ce461e8b5cd5a6264146118f70d2fa52.jpg
   cover: https://s21.ax1x.com/2025/07/10/pVQsGz4.png
