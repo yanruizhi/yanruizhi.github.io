@@ -1,4 +1,40 @@
-- class_name: 框架
+- class_name: 推荐博客
+  flink_style: telescopic
+  hundredSuffix: ""
+  link_list:
+    - name: 安知鱼
+      link: https://blog.anheyu.com/
+      avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg
+      descr: 生活明朗，万物可爱
+      siteshot: https://npm.elemecdn.com/anzhiyu-theme-static@1.1.6/img/blog.anheyu.com.jpg
+      color: vip
+      tag: 技术
+    - name: 没事发个呆
+      link: https://www.chengpei.top/
+      avatar: https://www.chengpei.top/upload/WechatIMG70.jpg
+      descr: 分享技术，记录生活
+      siteshot: https://s21.ax1x.com/2025/07/21/pV8dz6J.png
+      tag: 技术
+    - name: 一清三白
+      link: https://sanbaiblog.cn/
+      avatar: https://s21.ax1x.com/2025/01/05/pE9CfDU.jpg
+      descr: 克己慎独 守心明性
+      siteshot: https://s21.ax1x.com/2025/02/15/pEKUBgs.png
+      color: vip
+      tag: 分享
+
+- class_name: 小伙伴
+  class_desc: 那些人，那些事
+  flink_style: anzhiyu
+  hundredSuffix: ""
+  link_list:
+    - name: 安知鱼
+      link: https://blog.anheyu.com/
+      avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg
+      descr: 生活明朗，万物可爱
+      recommend: true
+
+- class_name: 实用框架
   flink_style: flexcard
   hundredSuffix: ""
   link_list:
@@ -33,25 +69,4 @@
       descr: 卓越的 Web 开发构建工具
       siteshot: https://cn.vite.dev/logo.svg
 
-- class_name: 推荐博客
-  flink_style: telescopic
-  hundredSuffix: ""
-  link_list:
-    - name: 安知鱼
-      link: https://blog.anheyu.com/
-      avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg
-      descr: 生活明朗，万物可爱
-      siteshot: https://npm.elemecdn.com/anzhiyu-theme-static@1.1.6/img/blog.anheyu.com.jpg
-      color: vip
-      tag: 技术
 
-- class_name: 小伙伴
-  class_desc: 那些人，那些事
-  flink_style: anzhiyu
-  hundredSuffix: ""
-  link_list:
-    - name: 安知鱼
-      link: https://blog.anheyu.com/
-      avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg
-      descr: 生活明朗，万物可爱
-      recommend: true

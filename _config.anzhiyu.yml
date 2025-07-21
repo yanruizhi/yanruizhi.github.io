@@ -47,6 +47,9 @@ nav:
         - name: 小霸王
           link: https://www.yikm.net/
           icon: https://files.codelife.cc/website/5f4ca285aa121b0c2ac69ee8.png?x-oss-process=image/resize,limit_0,m_fill,w_100,h_100/quality,q_92/format,webp
+        - name: 熊猫无损音乐
+          link: https://www.xmwav.com/
+          icon: https://s21.ax1x.com/2025/07/21/pV8dmd0.png
     - title: 资料库
       item:
         - name: 图床
