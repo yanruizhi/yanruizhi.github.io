@@ -22,7 +22,7 @@ copyright_info: 此文章版权归Wizard小志所有，如有转载，请注明�
 
 当运行node和npm命令时报错缺少某些依赖库
 
-![image-20250717095534685](CentOS7安装高版本node的升级问题.assets/image-20250717095534685.png)
+[![pVGCnYQ.png](https://s21.ax1x.com/2025/07/22/pVGCnYQ.png)](https://imgse.com/i/pVGCnYQ)
 
 问题是GLIBC文件未找到，网上搜索发现是版本问题
 
@@ -96,7 +96,7 @@ tar -zvxf gcc-9.10.tar.gz --directory=/usr/local/
 
 找到gcc目录下**contrib**目录中的**download_prerequisites**文件，查看内容
 
-![image-20250717104326472](CentOS7安装高版本node的升级问题.assets/image-20250717104326472.png)
+[![pVGCMSs.png](https://s21.ax1x.com/2025/07/22/pVGCMSs.png)](https://imgse.com/i/pVGCMSs)
 
 下载上述的几个包并解压到gcc目录下
 
@@ -134,7 +134,7 @@ make && make install
 
 完成后继续执行第一步编译，又出现下面问题
 
-![image-20250717133513943](CentOS7安装高版本node的升级问题.assets/image-20250717133513943.png)
+[![pVGCQln.png](https://s21.ax1x.com/2025/07/22/pVGCQln.png)](https://imgse.com/i/pVGCQln)
 
 显示make版本太老旧
 
@@ -159,7 +159,7 @@ ln -sv /usr/local/make/bin/make /usr/bin/make
 
 完成后执行**make -v**
 
-![image-20250717134552407](CentOS7安装高版本node的升级问题.assets/image-20250717134552407.png)
+[![pVGCGwT.png](https://s21.ax1x.com/2025/07/22/pVGCGwT.png)](https://imgse.com/i/pVGCGwT)
 
 ### 5.  CXXABI问题
 
@@ -178,7 +178,7 @@ make && make install
 
 完成后执行**node -v**，发现还是有问题
 
-![image-20250717142207089](CentOS7安装高版本node的升级问题.assets/image-20250717142207089.png)
+[![pVGCJTU.png](https://s21.ax1x.com/2025/07/22/pVGCJTU.png)](https://imgse.com/i/pVGCJTU)
 
 查看CXXABI
 
