@@ -1,6 +1,6 @@
 - class_name: 关于页
   subtitle: 生活明朗，万物可爱✨
-  avatarImg: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.0/img/avatar.webp
+  avatarImg: https://s21.ax1x.com/2025/07/10/pVQsGz4.png
   avatarSkills:
     left:
       - 🤖️ 数码科技爱好者
@@ -19,13 +19,12 @@
     tips: 追求
     title1: 源于
     title2: 热爱而去 感受
-    title3: 标题3
     word:
       - 学习
       - 生活
       - 程序
       - 体验
-  helloAbout: Hello there!
+  helloAbout: 直到世界尽头
   # 技能卡片
   skillsTips:
     tips: 技能
@@ -47,8 +46,8 @@
   map:
     title: 我现在住在
     StrengthenTitle: 中国，合肥市
-    background: https://bu.dusays.com/2023/07/05/64a4c61cb20ef.jpg
-    backgroundDark: https://bu.dusays.com/2023/07/05/64a4c63495ac5.jpg
+    background: https://bpic.588ku.com/video_listen/588ku_cover/00/48/23/d384fff0eb91cdcdee22f6aa914e44a4.jpg
+    backgroundDark:
   # 简介卡片
   selfInfo:
     selfInfoTips1: 生于
@@ -61,45 +60,35 @@
   personalities:
     author_name: 宝剑哥
     personality_type: ESFJ-A
-    photo_url: https://bu.dusays.com/2023/07/05/64a4c63495ac5.jpg
+    photo_url: https://s21.ax1x.com/2025/07/07/pVM8228.webp
     personality_img: https://npm.elemecdn.com/anzhiyu-blog@2.0.8/img/svg/ESFJ-A.svg
     name_url: https://www.16personalities.com/ch/esfj-%E4%BA%BA%E6%A0%BC
   # 座右铭卡片
   maxim:
     maxim_tips: 座右铭
-    maxim_top: 生活明朗，
-    maxim_bottom: 万物可爱。
+    maxim_top: 宽于待人
+    maxim_bottom: 严于律己
   # 特长卡片
   buff:
-    buff_tips: 特长
-    buff_top: 脑回路新奇的 酸菜鱼
-    buff_bottom: 二次元指数 MAX
+    buff_tips: 南柯一梦
+    buff_top: 世人笑我太疯癫
+    buff_bottom: 但愿长醉不复醒
   # 游戏卡片
   game:
     game_tips: 爱好游戏
-    game_title: 原神
-    game_uid: "UID: 125766904"
-    game_bg: https://bu.dusays.com/2023/04/22/64433bf26e25d.webp
+    game_title: Steam重灾区
+    game_uid: "SteamID: 431288787"
+    game_bg: https://img0.baidu.com/it/u=2497112085,1930294689&fm=253&fmt=auto&app=138&f=JPEG?w=865&h=500
   # 追番轮播图
   comic:
     comic_tips: 爱好番剧
     comic_title: 追番
     comic_list:
-      - name: 约定的梦幻岛
-        href: https://www.bilibili.com/bangumi/media/md5267750/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
-        cover: https://bu.dusays.com/2023/05/27/647166c44b414.webp
-      - name: 咒术回战
-        href: https://www.bilibili.com/bangumi/media/md28229899/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
-        cover: https://bu.dusays.com/2023/05/24/646db4398832e.webp
-      - name: 紫罗兰永恒花园
-        href: https://www.bilibili.com/bangumi/media/md8892/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
-        cover: https://bu.dusays.com/2023/05/24/646db43983d99.webp
-      - name: 鬼灭之刃
-        href: https://www.bilibili.com/bangumi/media/md22718131/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
-        cover: https://bu.dusays.com/2023/05/24/646db439856a0.webp
-      - name: JOJO的奇妙冒险 黄金之风
-        href: https://www.bilibili.com/bangumi/media/md135652/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
-        cover: https://bu.dusays.com/2023/05/30/64760e38d651a.webp
+      - name: 黑子的篮球
+        href: https://www.bilibili.com/bangumi/media/md1624/
+        cover: https://gss0.baidu.com/-4o3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/0df431adcbef76093f9953d22fdda3cc7dd99ee9.jpg
+
+
   like:
     like_tips: 关注偏好
     like_title: 数码科技
