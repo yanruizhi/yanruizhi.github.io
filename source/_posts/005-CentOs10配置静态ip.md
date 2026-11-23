@@ -5,6 +5,7 @@ categories:
   - 技术分享
 tags: 
   - CentOS
+  - Linux
 location: 安徽 合肥
 cover: https://s21.ax1x.com/2025/07/17/pV3Excd.png
 top_img: https://s21.ax1x.com/2025/07/17/pV3Excd.png

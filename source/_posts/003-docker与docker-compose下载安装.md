@@ -4,7 +4,8 @@ date: 2025-07-10
 categories:
   - 技术分享
 tags: 
-  - docker
+  - Docker
+  - Docker Compose
 location: 安徽 合肥
 cover: https://s21.ax1x.com/2025/07/11/pVlFNwD.png
 top_img: https://s21.ax1x.com/2025/07/11/pVlFNwD.png
